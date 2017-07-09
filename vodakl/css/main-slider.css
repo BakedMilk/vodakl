@@ -1,0 +1,20 @@
+.slick-arrow {
+	background-color: green;
+}
+.slick-list {
+	height: 500px;
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+}
+.slick-dots button {
+	border-radius: 10px;
+	border: 2px solid #1897D4;
+	background: #fff;
+	margin-right: 5px;
+	outline: none;
+}
+.slick-active button {
+	background: #1897D4;
+}

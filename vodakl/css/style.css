@@ -1,0 +1,531 @@
+html {
+	font-family: Open Sans;
+}
+::selection {
+background: rgba(65, 110, 189, 0.7);; /* Safari */
+}
+::-moz-selection {
+background: rgba(65, 110, 189, 0.7);; /* Firefox */
+}
+header {
+	margin: auto;
+	width: 1110px;
+}
+header a {
+	text-decoration: none;
+}
+header a:hover {
+	color: rgba(65, 110, 189, 0.7);
+	transition: 0.3s;
+}
+
+.main-menu {
+	height: 90px;
+	padding-top: 20px;	
+}
+.main-menu-wrapper {
+
+	width: 1110px;
+	display: inline-block;.
+	
+}
+.logo-cont {
+	width: 160px;
+	height: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: auto;
+	float: left;
+	margin-right: 30px;
+}
+.search {
+	width: 160px;
+	float: right;
+	margin-top: 4px;
+}
+.search input {
+	width: 160px;
+	height: 42px;
+	
+	border-radius:20px;
+	padding-left: 40px;
+	box-shadow:inset 0 0 0px 0px #888;
+ 	background: #fff;
+ 	border: solid 1px #BDBDBD;
+ 	background-image: url('images/icon_search.svg');
+ 	background-repeat: no-repeat;
+ 	background-position: 10px 10px;
+ 	font-size: 16px;
+ 	outline: none;
+}
+
+.main-menu a {
+	color: #266EB7;
+}
+.second-menu {
+	}
+
+.second-menu-list {
+	display: inline-block;
+	display: flex;
+    justify-content: space-between;	
+}
+
+.second-menu a {
+	color: #266EB7;
+	display: flex;
+	align-items: center;
+}
+.third-menu {
+	width: 1110px;
+	margin: auto;
+}
+.third-menu a {
+	text-transform: uppercase;
+	color: #266EB7;
+	text-decoration: none;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: inherit;
+	font-size: 16px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.third-menu a:hover {
+	color: rgba(255, 255, 255, 0.8);
+	transition: 0.3s;
+}
+
+
+ul.main-menu-list {
+	width: 730px;
+	height: auto;
+	display: inline-block;	
+	display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+}
+ul.main-menu-list li {
+	display: inline;
+
+}
+ul.second-menu-list li {
+	width: 255px;
+	height: 80px;
+	align-items: center;
+	display: flex;
+	justify-content:center;
+}
+ul.second-menu-list div {
+	margin: auto;
+}
+ul.second-menu-list li img {
+	margin-right: 8px;
+	width: 28px;
+    height: 28px;
+}
+ul.third-menu-list {
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+ul.third-menu-list li {
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	width: 160px;
+	height: 60px;
+	
+}
+ul.third-menu-list li:first-child {
+	font-weight: 600;	
+}
+
+.promo {
+	width: 1110px;
+	margin: auto;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+
+
+.slider {
+	height: 620px;
+	 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3abdfc+0,60cbfd+53,83d8ff+83 */
+	background: #3abdfc; /* Old browsers */
+	background: -moz-linear-gradient(left,  #3abdfc 0%, #60cbfd 53%, #83d8ff 83%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #3abdfc 0%,#60cbfd 53%,#83d8ff 83%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #3abdfc 0%,#60cbfd 53%,#83d8ff 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3abdfc', endColorstr='#83d8ff',GradientType=1 ); /* IE6-9 */
+}
+.slider-wrapper {
+	width: 1110px;
+	margin: auto;
+
+}
+.slider-text {
+	display: inline-block;
+	width: 542px;
+	height: 218px;
+
+}
+.slider-title {
+	margin-top: 39px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 100%;
+
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+
+}
+.slider-preview {
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 100%;
+
+	color: #FFFFFF;
+
+}
+.slider-img-contain {
+	width: 540px;
+	height: 600px;
+	float: right;
+	background-repeat: no-repeat;
+}
+.slide-one {
+	background: url('images/kid.png');
+}
+.slide-two {
+	background: url('images/cooler.png');
+}
+.preview-promo-motto-wrapper {
+
+	background-color: #3DBCFF;
+
+}
+.motto /* Мы доставим выбранную продукцию в течение 1 часа! */ {
+	padding-top: 19px;
+	padding-bottom: 18px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+
+form.express-delivery {
+	display: flex;
+	justify-content:center;
+    height: 60px;
+    margin-top: 34px;
+}
+
+.express-delivery-button {
+	background: #3DBCFF;
+	border-radius: 100px;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25), 0px 3px 12px rgba(0, 0, 0, 0.12);
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	width: 480px;
+	height: 60px;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+}
+.express-delivery-button:hover {
+	background: rgb(0, 91, 151);
+	transition: 0.3s;
+}
+.preview-img-promo  {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 407px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.preview-text-promo-paragraph {
+
+
+	font-family: Open Sans;
+	font-style: normal;
+	margin-bottom: 30px;
+	font-size: 24px;
+	line-height: 120%;
+	text-align: center;
+	color: #1F58A8;
+}
+/* Оформить экспресс доставку */
+.preview-item-wrapper {
+	width: 1110px;
+	overflow: hidden;
+}
+.preview-item-promo {
+	width: 25%;
+	float: left;
+	display: inline-block;
+}
+.item-info {
+	width: 235px;
+    height: 63px;
+    margin:auto;
+    margin-top: 8px;
+}
+.preview-item-promo-elem {
+	width: 255px;
+	height: 321px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: auto;
+}
+
+.item-elem {
+
+}
+
+.item-text /* Йодированная питьевая вода, 19 литров */ {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 100%;
+	text-align: center;
+	color: #1F58A8;
+}
+/* 300 руб */
+.item-price {
+	margin-top: 12px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 100%;
+	text-align: center;
+	color: #1F58A8;
+}
+.wave {
+	margin-top: 200px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#83d8ff+0,5ac1f2+30,1d7cb5+97,1d7cb5+97 */
+	background: #83d8ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #83d8ff 0%, #5ac1f2 30%, #1d7cb5 97%, #1d7cb5 97%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #83d8ff 0%,#5ac1f2 30%,#1d7cb5 97%,#1d7cb5 97%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #83d8ff 0%,#5ac1f2 30%,#1d7cb5 97%,#1d7cb5 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d8ff', endColorstr='#1d7cb5',GradientType=0 ); /* IE6-9 */
+
+}
+.advantages {
+	width: 1110px;
+	margin: auto;
+
+}
+.advantages-title {
+	padding-top: 40px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+.advantages-elem {
+	margin-top: 64px;
+	display: inline-block;
+
+}
+.advantages-wrapper {
+	margin-top: 64px;
+	padding-bottom: 138px;
+	text-align: center;
+}
+
+.elem-1 {
+	
+	
+}
+.adv-elem-index {
+
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+.adv-elem-ico {
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: auto;
+
+}
+.seo-text-bg {
+	margin-top: 64px;
+	margin-bottom: 64px;
+	
+	background-image: url('images/bg_seo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+	/* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     box-shadow: 
+        inset 0px 11px 30px -10px rgba(0, 0, 0, 0.35),
+        inset 0px -11px 30px -10px rgba(0, 0, 0, 0.35);
+
+}
+.seo-text-bg-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+.seo-text {
+	margin: auto;
+	width: 1110px;
+	color: #FFF;
+	padding-top: 65px;
+	padding-bottom: 65px;
+
+}
+.seo-text p {
+	text-align: justify;
+}
+/* Подходит для ежеднев */
+
+.adv-elem-text {
+	width: 350px;
+	margin-top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 130%;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+footer {
+	padding-top: 137px;
+	padding-bottom: 20px;
+	width: 1110px;
+	margin: auto;
+}
+footer a {
+	text-decoration: none;
+	color: #FFF;
+}
+footer a:hover {
+	color: rgba(255, 255, 255, 0.7);
+	transition: 0.3s;
+}
+.footer-menu {
+	display: flex;
+}
+.footer-menu-list {
+	width: 160px;
+	display: inline-block;
+	height: auto;
+}
+.list {
+	margin-right: 30px;
+
+}
+
+
+
+.footer-menu-list li {
+	margin-top: 14px;
+}
+.footer-info {
+	padding-bottom: 34px;
+	margin-top: 68px;
+	height: 40px;
+}
+.footer-copyright {
+	display: inline-block;
+	font-size: 14px;
+    color: #FFF;
+    position: relative;
+    top: 25%;
+}
+.footer-apps-social {
+	display: flex;
+	float: right;
+}
+.footer-apps-ico {
+	display: inline-block;
+	width: 290px;
+
+}
+.footer-social {
+	display: inline-block;
+	margin-left: 91px;
+
+}
+.footer-social img {
+
+}
+.app {
+	width: 135px;
+	height: 40px;
+}
+.appstore {
+	float: left;
+	background-image: url('images/appstore.png');
+
+}
+.google-play {
+	float: right;
+	background-image: url('images/googleplay.png');
+}
+.social {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 31px;
+}
+.vk {
+	background-image: url('images/vk.svg');
+}
+.insta {
+	background-image: url('images/insta.svg');
+}
+.fb {
+	background-image: url('images/fb.svg');
+}
