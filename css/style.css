@@ -26,7 +26,7 @@ header a:hover {
 .main-menu-wrapper {
 
 	width: 1110px;
-	display: inline-block;.
+	display: flex;.
 	
 }
 .logo-cont {
@@ -35,14 +35,18 @@ header a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	margin: auto;
 	float: left;
 	margin-right: 30px;
 }
 .search {
 	width: 160px;
-	float: right;
-	margin-top: 4px;
+    height: 70px;
+    float: right;
+    display: flex;
+    align-items: center;
+    order:1;
+    margin-left: 15px;
+	
 }
 .search input {
 	width: 160px;
@@ -102,11 +106,10 @@ header a:hover {
 
 ul.main-menu-list {
 	width: 730px;
-	height: auto;
-	display: inline-block;	
+	height: 70px;	
 	display: flex;
     justify-content: space-between;
-    line-height: 60px;
+    align-items:center;
 }
 ul.main-menu-list li {
 	display: inline;
