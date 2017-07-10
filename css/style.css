@@ -2,10 +2,10 @@ html {
 	font-family: Open Sans;
 }
 ::selection {
-background: rgba(65, 110, 189, 0.7);; /* Safari */
+	background: rgba(65, 110, 189, 0.7);; /* Safari */
 }
 ::-moz-selection {
-background: rgba(65, 110, 189, 0.7);; /* Firefox */
+	background: rgba(65, 110, 189, 0.7);; /* Firefox */
 }
 header {
 	margin: auto;
@@ -456,18 +456,16 @@ footer a:hover {
 }
 .footer-menu {
 	display: flex;
+	justify-content: space-between;
 }
 .footer-menu-list {
 	width: 160px;
-	display: inline-block;
 	height: auto;
 }
 .list {
-	margin-right: 30px;
+
 
 }
-
-
 
 .footer-menu-list li {
 	margin-top: 14px;
