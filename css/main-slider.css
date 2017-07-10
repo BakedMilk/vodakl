@@ -9,11 +9,16 @@
 	justify-content: center;
 }
 .slick-dots button {
-	border-radius: 10px;
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
 	border: 2px solid #1897D4;
 	background: #fff;
 	margin-right: 5px;
 	outline: none;
+	font-size: 0px;
+	padding: 0;
+
 }
 .slick-active button {
 	background: #1897D4;
