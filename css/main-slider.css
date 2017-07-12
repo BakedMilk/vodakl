@@ -18,8 +18,12 @@
 	outline: none;
 	font-size: 0px;
 	padding: 0;
+	cursor: pointer;
 
 }
 .slick-active button {
 	background: #1897D4;
+}
+.slider-item {
+	outline: none;
 }
