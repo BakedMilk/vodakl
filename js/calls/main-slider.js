@@ -6,7 +6,3 @@ $('.slider-slick').slick({
 	arrows: false,
 	//infinite: false
 });
-/*$('.slider-slick').on('init', function(event, slick){
-    // let's do this after we init the banner slider
-    console.log('slider was initialized');
-});*/
