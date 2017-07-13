@@ -2,11 +2,14 @@
 	background-color: green;
 }
 .slick-list {
-	height: 500px;
+	height: 560px;
 }
 .slick-dots {
 	display: flex;
 	justify-content: center;
+	    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .slick-dots button {
 	width: 14px;
@@ -26,4 +29,16 @@
 }
 .slider-item {
 	outline: none;
+	position: relative;
+}
+.slider-wave {
+	height: 97px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-image: url('../images/wave.svg');
+	background-repeat: repeat-x;
+}
+.slick-track {
+	height: 100%;
 }

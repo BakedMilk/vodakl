@@ -1,0 +1,12 @@
+<svg width="1440" height="98" viewBox="0 0 1440 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>wave</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2262 -88)">
+<g id="wave">
+<use xlink:href="#path0_fill" transform="translate(-2262 88.9356)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1440 26.5644L 1440 97.0644L 0 96.5644C 187 43.5644 307.462 19.9073 464 5.56444C 636.591 -7.13858 729.179 -0.332294 883 49.5644C 975.312 79.509 1000.5 87.0644 1121 94.5644C 1236.38 90.9462 1295 79.0645 1377.5 52.5644C 1397.08 45.6876 1394.5 47.5644 1440 26.5644Z"/>
+</defs>
+</svg>

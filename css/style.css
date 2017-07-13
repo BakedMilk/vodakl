@@ -137,6 +137,24 @@ header a:hover {
 .inner-wrap {
 	width: 1110px;
 	margin: auto;
+	display: flex;
+}
+.left-menu-dropdown {
+	margin-top: 99px;
+}
+.divider-dropdown {
+	border: 1px solid rgba(151, 151, 151, 0.30163);
+	margin-top: 99px;
+}
+
+.preview-item-promo-elem-dropdown {
+	width: 255px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: auto;
+	margin-top: 99px;
 }
 ul.main-menu-list {
 	width: 730px;
@@ -200,9 +218,10 @@ ul.third-menu-list li:first-child {
 	background: linear-gradient(to right,  #3abdfc 0%,#60cbfd 53%,#83d8ff 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3abdfc', endColorstr='#83d8ff',GradientType=1 ); /* IE6-9 */
 }
-.slider-wrapper {
+ .slider-wrapper {
 	width: 1110px;
 	margin: auto;
+	    height: 100%;
 
 }
 .slider-text {
@@ -338,7 +357,7 @@ form.express-delivery {
 
 }
 
-.item-text /* Йодированная питьевая вода, 19 литров */ {
+.item-text {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: normal;
