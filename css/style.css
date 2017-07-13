@@ -192,6 +192,21 @@ ul.left-menu-dropdown li {
 .detail-link-dropdown {
 	margin-top: 54px;
 }
+.item-dropdown {
+	display: inline-block;
+}
+.item-dropdown-container {
+	width: 200px;
+	height: 180px;
+	margin-bottom: 29px;
+	background-image: url("../images/warning.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0px 50px 0px 50px;
+}
+.item-dropdown-link {
+	margin-top: 29px;
+}
 ul.main-menu-list {
 	width: 730px;
 	height: 70px;	
